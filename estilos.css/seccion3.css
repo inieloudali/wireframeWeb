@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: #000a8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 5vh 3vw;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-color:  rgb(59, 59, 59);
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#imagenLogo {
+    height: 5vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 82.5vh;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    height: 40vh;
+    font-size: 3.5vh;
+    padding-top: 20vh;
+    padding-bottom: 8.25vh;
+}
+
+section {
+    border-radius: 10px;
+    padding: 5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: 2.5vh 0;
+
+}
+
+.texto {
+    height: 40vh;
+    padding-top: 7.5vh;
+}
+
+footer {
+    background-color: #000a8f;
+    color: white;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 17.5px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    section {
+        margin-right: auto;
+        margin-left: auto;
+        width: 85%;
+        justify-content: space-evenly;
+    }
+    
+    div {
+        width: auto;
+    }
+
+    footer {
+        padding-left: 5vw;
+        text-align: center;
+    }
+}
