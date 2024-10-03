@@ -25,6 +25,7 @@ header {
 body {
     background-color: rgb(59, 59, 59);
     /* background-image: url("/imagenes/Home"); */
+   
 }
 
 /* .logo {
@@ -77,6 +78,8 @@ main {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background: url("../imagenes/home__.png");
+    
 }
 
 h1 {
@@ -143,7 +146,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     nav a {
-        font-size: 17.5px;
+        font-size: 11px;
     }
     
     h1 {

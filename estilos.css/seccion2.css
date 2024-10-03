@@ -125,9 +125,9 @@ footer {
 
 @media screen and (max-width: 768px) {
     nav a {
-        font-size: 17.5px;
+        font-size: 10.4px;
     }
-
+    
     h2 {
         text-align: center;
     }

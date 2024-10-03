@@ -59,11 +59,13 @@ main {
     font-style: normal;
     height: 82.5vh;
     text-align: center;
+    color: black;
+    background: url("../imagenes/foto7.png");
 }
 
 h3 {
     text-align: center;
-    height: 40vh;
+    height: 30vh;
     font-size: 3.5vh;
     padding-top: 20vh;
     padding-bottom: 8.25vh;
@@ -81,7 +83,7 @@ section {
 }
 
 .texto {
-    height: 40vh;
+    height: 50vh;
     padding-top: 7.5vh;
 }
 
@@ -97,8 +99,10 @@ footer {
 
 @media screen and (max-width: 768px) {
     nav a {
-        font-size: 17.5px;
+        font-size: 11px;
     }
+
+
     
     h2 {
         text-align: center;
