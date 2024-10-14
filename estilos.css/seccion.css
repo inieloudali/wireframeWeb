@@ -68,7 +68,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3vh;
-
 }
 
 
@@ -103,6 +102,45 @@ footer {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    nav a {
+        font-size: 25px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .textito2{
+        text-align: center;
+        font-size: 22.5px;
+    }
+    
+    .padre {
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    #img1 {
+        margin-left: 20vw;
+    }
+
+    #img2 {
+        margin-right: 20vw;
+    }
+
+    footer {
+        padding-left: 5vw;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav a {
         font-size: 20px;
@@ -121,7 +159,7 @@ footer {
         font-size: 25px;
     }
 
-    .padre{
+    .padre {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;

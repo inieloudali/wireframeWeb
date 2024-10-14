@@ -145,6 +145,44 @@ footer {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    nav a {
+        font-size: 25px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .textito {
+        margin: 3vh 0;
+        text-align: center;
+        font-size: 22.5px;
+    }
+
+    .contenedorBoton { 
+        justify-content: center;
+    }
+
+    .boton {
+        font-size: 22.5px;
+        width: 175px;
+        height: 45%;
+    }
+
+    footer {
+        padding-left: 5vw;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav a {
         font-size: 20px;

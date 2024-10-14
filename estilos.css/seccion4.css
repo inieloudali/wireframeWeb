@@ -118,6 +118,33 @@ footer {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    nav a {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 37.5px;
+    }
+
+    .imagenesPosta {
+        width: 17.5vw;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .flechitaUwU {
+        margin-top: 1vh;
+    }
+
+    footer {
+        padding-left: 5vw;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav a {
         font-size: 20px;

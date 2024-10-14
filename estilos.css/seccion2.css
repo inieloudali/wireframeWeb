@@ -123,6 +123,53 @@ footer {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    nav a {
+        font-size: 25px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 37.5px;
+    }
+
+    h3 {
+        font-size: 22.5px;
+    }
+
+    section{
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+        justify-content: space-evenly;
+    }
+
+    img {
+        height: 17.5vh;
+    }
+
+    .text {
+        font-size: 17.5px;
+        padding-top: 2vh;
+    }
+    
+    button{
+        margin-top: 3vh;
+        width: 175px;
+        height: 10vh;
+        font-weight: bold;
+    }
+
+    div{
+        width: auto;
+    }
+
+    footer {
+        padding-left: 5vw;
+        text-align: center;   
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav a {
         font-size: 20px;
@@ -130,6 +177,10 @@ footer {
     
     h2 {
         text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     section{
@@ -143,13 +194,16 @@ footer {
         height: 12vh;
     }
 
-    .text{
+    .text {
         padding-top: 2.5vh;
     }
+
     button{
         margin-top: 3vh;
-        width: 125px;
+        width: 150px;
         height: 12vh;
+        font-weight: bold;
+
     }
     
     div{
@@ -159,6 +213,5 @@ footer {
     footer {
         padding-left: 5vw;
         text-align: center;
-        
     }
 }
